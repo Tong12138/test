@@ -34,9 +34,10 @@
 
             </CalendarDatePicker>
         </StackPanel>
-      
-       
-          
+
+
+        <TextBlock>fsfdsfsd</TextBlock>
+        <TextBlock>fdshlsf</TextBlock>
 
         <CalendarDatePicker Name="abs" >
             <CalendarDatePicker.Resources>
