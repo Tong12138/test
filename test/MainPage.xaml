@@ -8,6 +8,40 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <Button>weishenme wode buttonbuhaooyong</Button>
+            <TextBlock>adfsfdsfds</TextBlock>
+            <CalendarDatePicker Margin="10,10,10,10" HorizontalAlignment="Center"></CalendarDatePicker>
+            <CalendarDatePicker Margin="10,10,10,10" HorizontalAlignment="Center">
+                <CalendarDatePicker.Resources>
+                    <SolidColorBrush x:Key="CalendarDatePickerCalendarGlyphForeground" Color="Blue"/>
+                </CalendarDatePicker.Resources>
+            </CalendarDatePicker>
 
+            <CalendarDatePicker BorderBrush="Green"  Background="Red" Margin="10,10,10,10" HorizontalAlignment="Center">
+                <CalendarDatePicker.Resources>
+                    <SolidColorBrush x:Key="CalendarDatePickerCalendarGlyphForeground" Color="Red"/>
+                </CalendarDatePicker.Resources>
+            </CalendarDatePicker>
+
+            <CalendarDatePicker FontSize="45"  Margin="10,10,10,10" HorizontalAlignment="Center"
+                                    Foreground="Yellow"  Header="前景色" >
+
+            </CalendarDatePicker>
+
+            <CalendarDatePicker Margin="10,10,10,10" HorizontalAlignment="Center"
+                                    Header=""  PlaceholderText="PlaceholdText" Foreground="Green">
+
+            </CalendarDatePicker>
+        </StackPanel>
+      
+       
+          
+
+        <CalendarDatePicker Name="abs" >
+            <CalendarDatePicker.Resources>
+                <SolidColorBrush x:Key="CalendarDatePickerCalendarGlyphForeground" Color="CornflowerBlue"/>
+            </CalendarDatePicker.Resources>
+        </CalendarDatePicker>
     </Grid>
 </Page>

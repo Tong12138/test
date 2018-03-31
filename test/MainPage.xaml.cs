@@ -26,5 +26,13 @@ namespace test
         {
             this.InitializeComponent();
         }
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+          //  datepicker.Date = DateTimeOffset.UtcNow;
+        }
+
+        
     }
 }
