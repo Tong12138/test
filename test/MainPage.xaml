@@ -33,11 +33,22 @@
                                     Header=""  PlaceholderText="PlaceholdText" Foreground="Green">
 
             </CalendarDatePicker>
+            <SplitView>
+                <SplitView.Pane>
+                    <Slider Name="myslider" Width="300" Minimum="10" Maximum="50"></Slider>
+                </SplitView.Pane>
+                <SplitView.Content>
+                    <ToggleButton Width="30"></ToggleButton>
+                </SplitView.Content>
+            </SplitView>
+            
+         
+            <ProgressBar Width="300"  Maximum="25" Minimum="10" Value="{x:Bind myslider.Value, Mode=OneWay}"></ProgressBar>
         </StackPanel>
 
 
         <TextBlock>fsfdsfsd</TextBlock>
-        <TextBlock>fdshlsf</TextBlock>
+        <TextBlock SelectionChanged="TextBlock_SelectionChanged" Margin="8,0,-8,0">fdshlsf</TextBlock>
 
         <CalendarDatePicker Name="abs" >
             <CalendarDatePicker.Resources>

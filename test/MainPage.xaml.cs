@@ -33,6 +33,9 @@ namespace test
           //  datepicker.Date = DateTimeOffset.UtcNow;
         }
 
-        
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
